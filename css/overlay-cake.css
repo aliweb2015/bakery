@@ -1,0 +1,178 @@
+.cak-iteme {
+    padding: 0px;
+    display: inline-block;
+    text-align: left;
+}
+.cak-iteme-wrapper {
+    position: relative;
+    padding: 0px;
+    background: #cc249b;
+}
+.cak-iteme-image {
+    position: relative;
+    overflow: hidden;
+}
+.cak-iteme-image img {
+    display: block;
+}
+
+.cak-iteme-title {
+    position: absolute;
+    left: -10px;
+    bottom: 17px;
+
+    border-right: 0.2em solid #fbfbfb;
+    background: #cc249b;
+    line-height: 1.5em;
+    font-weight: normal;
+    padding: 7px 9px 6px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: #FFFFFF;
+    font-size: 1.4em;
+    border-top-right-radius:10px ;
+}
+.cak-iteme {
+    padding: 0px;
+    display: inline-block;
+    text-align: left;
+}
+.cak-iteme-wrapper {
+    position: relative;
+    padding: 0px;
+    background: #f9f9f9;
+}
+.cak-iteme-image {
+    position: relative;
+    overflow: hidden;
+}
+.cak-iteme-image img {
+    display: block;
+    vertical-align: bottom; /* Remove the gap at the bottom of inline image */
+    max-width: 100%;
+}
+.cak-iteme-overlay {
+    background: #000;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: opacity 0.5s ease-in 0s;
+    -moz-transition: opacity 0.5s ease-in 0s;
+    -o-transition: opacity 0.5s ease-in 0s;
+    transition: opacity 0.5s ease-in 0s;
+}
+.cak-iteme-wrapper:hover .cak-iteme-overlay {
+    opacity: 0.3;
+}
+.cak-iteme-button {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    margin-left: -25px;
+}
+.cak-iteme-button a {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background: #f9f9f9;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: #cc249b;
+    font-size: 1.2em;
+    line-height: 50px;
+    -webkit-transition: all 0.2s ease-in 0s;
+    -moz-transition: all 0.2s ease-in 0s;
+    -o-transition: all 0.2s ease-in 0s;
+    transition: all 0.2s ease-in 0s;
+    text-decoration: none !important;
+    display: block;
+}
+.cak-iteme-button a:hover {
+    background: #a3a3a3;
+
+}
+
+
+.second .cak-iteme-wrapper .cak-iteme-title {
+    -webkit-transition: all 0.2s ease-in 0s;
+    -moz-transition: all 0.2s ease-in 0s;
+    -o-transition: all 0.2s ease-in 0s;
+    transition: all 0.2s ease-in 0s;
+}
+.second .cak-iteme-wrapper:hover .cak-iteme-title {
+    right: -100%;
+    left: 200px;
+    float: right;
+    font-size: 15px;
+    border-left: 0.2em solid #fbfbfb;
+    width: 150px;
+}
+.second .cak-iteme-description {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+    bottom: 100%;
+    -webkit-transition: all 0.5s ease-in 0s;
+    -moz-transition: all 0.5s ease-in 0s;
+    -o-transition: all 0.5s ease-in 0s;
+    transition: all 0.5s ease-in 0s;
+}
+.second .cak-iteme-wrapper:hover .cak-iteme-description {
+    bottom: 0;
+}
+
+
+.cake-desc { position: relative; }
+
+.cake-desc img {
+    vertical-align: bottom; /* Remove the gap at the bottom of inline image */
+    max-width: 100%;
+}
+
+.cake-desc-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font: 0/0 a; /* Remove the gap between inline(-block) elements */
+}
+
+.cake-desc-overlay:before {
+    content: '   onsetetur sa';
+    /*display: inline-block;*/
+    height: 100%;
+    vertical-align: middle;
+}
+
+.cake-desc-overlay a {
+    font: 16px/1 Arial, sans-serif; /* Reset the font property */
+    font-size: 19px;
+    color: #fbfbfb;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    text-align:center;
+    background: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    padding: 1% 0; /* Added a relative padding for the demo */
+}
+.cake-desc-overlay a:hover {
+
+    background: rgba(204, 36, 155, 0.75);
+    width: 60%;
+    border-bottom: 0.3em solid #e1e1e1;
+    border-right: 0.2em solid #e1e1e1;
+    border-left: 0.2em solid #e1e1e1;
+
+}

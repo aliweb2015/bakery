@@ -1,0 +1,736 @@
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans|Orbitron:900);
+@font-face {
+    font-family: 'Terminat';
+    src: url("../fonts/Terminat.TTF") format("truetype");
+}
+body{
+
+    overflow-x: hidden;
+    background-color:#222 ;
+
+}
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+
+}
+
+/* ==========================================================================
+                                       Navbar
+   ========================================================================== */
+.navbar-inverse .navbar-nav > li > a {
+    color: #9D9D9D;
+    font-family: 'Orbitron', Lucida Grande, Arial;
+    font-size: 2.4em;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    color: #FFF;
+    background-color: #6c1250;
+}
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+    margin-top: 0px;
+}
+.navbar-wrapper{
+    background-color:#222 ;
+}
+.navigation  {
+    padding-right: 0;
+    padding-left: 0;
+
+}
+
+nav#Amenu{
+    border-bottom: 0.2em solid #f9f9f9;
+    border-top: 0.2em solid #f9f9f9;
+
+    background-color: #180412;
+    height: 100px;
+    padding-top:15px;
+    width: 50%;
+    float: left;
+    border-radius: 10px;
+}
+nav#Bmenu{
+    border-bottom: 0.2em solid #f9f9f9;
+    border-top: 0.2em solid #f9f9f9;
+    background-color: #1f0617;
+    opacity: 0.8;
+    top:-250px ;
+    height: 100px;
+    width: 100%;
+    float: inherit;
+    padding-top:15px;
+}
+
+.wraper-header{
+   min-height: 760px;
+
+    background: url("../img/baecker_header-bg.jpg")  no-repeat scroll 0px 0px  ;
+
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+}
+.header-gallery{
+   height: auto;
+}
+.header-inner h1{
+    color:#9c7c58;
+    font-family: 'Orbitron', Lucida Grande, Arial;
+}
+.header-inner p{
+    color: #9d9d9d;
+    font-family: 'Orbitron', Lucida Grande, Arial;
+}
+
+/*-------------------------------start of wraper-break--------------------------------*/
+.wraper-break {
+    min-height:270px;
+    background: url("../img/bakers.jpg")  no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.wraper-break h1{
+
+font-size: 4em;
+    color: #e1e1e1;
+    font-family: 'Orbitron', Lucida Grande, Arial;
+
+}
+.wraper-break h3{
+
+    font-size: 2em;
+    color: #710d5d;
+    font-family: 'Orbitron', Lucida Grande, Arial;
+
+}
+.wraper-break p{
+
+
+    color: #24051d;
+    font-family: 'Orbitron', Lucida Grande, Arial;
+
+}
+.wraper-break-info {
+    min-height: 200px;
+    background: url("../img/baecker_cake-4.jpg")  no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.wraper-break-info h1 {
+padding-top: 50px;
+    font-family: 'Orbitron', Lucida Grande, Arial;
+    color:#f2f2f2;
+}
+.wraper-break-info p {
+
+    font-family: 'Orbitron', Lucida Grande, Arial;
+    color:#929292;
+}
+.wraper-break-coffe{
+    min-height: 200px;
+    background: url("../img/baecker_coffee-3.jpg")  no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.wraper-break-coffe h1 ,h3{
+    padding-top: 50px;
+    font-family: 'Orbitron', Lucida Grande, Arial;
+    color:#f2f2f2;
+}
+.wraper-break-coffe p {
+
+    font-family: 'Orbitron', Lucida Grande, Arial;
+    color: #553714;
+}
+
+/*-------------------------------END of wraper-break--------------------------------*/
+
+ /*-------------------------------Start of wraper-broad--------------------------------*/
+.wraper-broad {
+    min-height:760px;
+
+    background: #24051d;
+
+}
+.wraper-broad h2  {
+   color: #f2f2f2;
+}
+.wraper-broad p  {
+    color: #9d9d9d;
+}
+
+.no-padding{
+    padding-top: 0;
+}
+.broad-img{
+    min-height: 255px;
+   padding-right: 0px;
+    padding-left: 0px;
+
+
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+
+}
+
+
+
+.broad-img:hover{
+    background-color: #000000;
+    opacity: 0.8;
+}
+.gallery{
+    min-height: 191px;
+    background: #1f0617;
+
+    color: #f2f2f2;
+}
+
+.gallery:hover {
+    background: url("") no-repeat scroll 0px 0px  ;
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+    text-align:center;
+
+    opacity: 0.6;
+    -webkit-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;
+}
+/*-------------------------------END of wraper-menu-broad--------------------------------*/
+/*-------------------------------END of wraper-cake--------------------------------*/
+.wraper-cake{
+    min-height: 760px;
+
+    background: url("../img/baecker_cake-bg2.jpg")  no-repeat scroll 0px 0px  ;
+
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+
+}
+.wraper-cake h2{
+    font-family: 'Orbitron', Lucida Grande, Arial;
+    color:#f2f2f2;
+    border-bottom: 0.2em solid #9d9d9d;
+    height: auto;
+    padding-left: 20px;
+}
+.wraper-cake p{
+
+    color:#f2f2f2;
+    font-size: 17px;
+    padding-left: 20px;
+}
+
+/*-------------------------------END of wraper-cake--------------------------------*/
+/*-------------------------------END of wraper-coffee--------------------------------*/
+.wraper-coffee{
+    min-height: 660px;
+
+    background: url("../img/baecker_coffee-bg.jpg")  no-repeat scroll 0px 0px  ;
+
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+
+}
+.wraper-coffee h2{
+    font-family: 'Orbitron', Lucida Grande, Arial;
+    color:#f2f2f2;
+    border-bottom: 0.2em solid #9d9d9d;
+    height: auto;
+    padding-left: 20px;
+}
+.wraper-coffee p{
+
+    color:#f2f2f2;
+    font-size: 17px;
+    padding-left: 20px;
+}
+.coffee-img{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.coffee-img:hover{
+    background-color: #000000;
+    opacity: 0.9;
+}
+/*-------------------------------END of wraper-coffee--------------------------------*/
+/*-------------------------------start of Contact--------------------------------*/
+.wraper-Contact {
+    min-height:760px;
+    background: #6c1250;
+
+}
+.Contact-inner h1{
+    font-family: 'Oswald', sans-serif;
+    color: #cab485;
+    font-size: 80px;
+    padding-bottom: 50px;
+
+}
+
+.Contact-inner{
+    padding:50px 50px 50px 50px;
+
+}
+.contact-outside{
+    padding-top: 100px;
+    background-color: #222222;
+    color: #f2f2f2;
+   min-height: 619px;
+
+}
+.logo-template{
+    padding-bottom:50px;
+}
+
+
+.openingtime h3{
+    color: #9d9d9d;
+}
+.email:hover{
+    opacity: 0.8;
+}
+/*-------------------------------END of Contact--------------------------------*/
+
+/*-------------------------------Start of Gallery--------------------------------*/
+.Copyright{
+    min-height: 50px;
+    background: #1f0617;
+
+
+}
+.Copyright h3{
+    color: #f9f9f9;
+    line-height: 100px;
+
+}
+
+.gallery_1{
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+}
+
+
+.gallery_1:hover {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    opacity: 0.6;
+    -webkit-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;
+}
+.scroll-top {
+    cursor: pointer;
+    position:fixed;
+    bottom:0;
+    right:6%;
+    z-index:100;
+    background: #f2f3f2;
+    font-size:24px;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+}
+.scroll-top a:link,.scroll-top a:visited {
+    color: #8c0365;
+}
+/*-------------------------------END of Gallery--------------------------------*/
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers:
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-inverse .navbar-nav > li > a {
+
+
+        font-size: 1.9em;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-inverse .navbar-nav > li > a {
+
+
+        font-size: 1.3em;
+    }
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .navbar-inverse .navbar-nav > li > a {
+
+
+        font-size: 1em;
+    }
+    .navbar-wrapper {
+        background-color: #3f1e14;
+
+        z-index:100;
+    }
+    .navbar-nav{
+        z-index:1000;
+    }
+
+
+    .wraper-header{
+        min-height: 400px;}
+
+    .aw-item-title {
+
+        left: 0;
+        padding: 0px 0px;
+
+
+    }
+    .second .aw-item-description {
+
+        padding: 0px;
+
+    }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    .navbar-inverse .navbar-nav > li > a {
+
+
+        font-size: 1em;
+    }
+    .navbar-wrapper {
+        background-color: #3f1e14;
+
+
+    }
+   .navbar-nav{
+       z-index:1000;
+   }
+
+
+.openingtime h1{
+    font-size: 30px;
+}
+
+    .openingtime p {
+        font-size: 16px;
+
+    }
+    .wraper-header{
+        min-height: 400px;}
+    .Contact-inner h1{
+
+
+        font-size: 40px;
+
+    }
+    .aw-item-title {
+
+        left: 0;
+
+        padding: 0px 0px;
+    }
+    .second .aw-item-description {
+
+        padding: 0px;
+
+    }
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
